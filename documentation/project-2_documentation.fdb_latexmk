@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1700074502 "/home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/documentation/project-2_documentation.tex" "project-2_documentation.pdf" "project-2_documentation" 1700074502
+["pdflatex"] 1700078355 "/home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/documentation/project-2_documentation.tex" "project-2_documentation.pdf" "project-2_documentation" 1700078355
   "/etc/texmf/web2c/texmf.cnf" 1696420706 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/documentation/project-2_documentation.tex" 1700074502 5422 7b9e9ac854c57e7f4da3fa6aa261b3c0 ""
+  "/home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/documentation/project-2_documentation.tex" 1700078354 5288 7035e06ddf75cba55a0c5398884fba74 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -68,10 +68,6 @@
   "/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty" 1585170648 80964 64e57373f36316e4a09b517cbf1aba2e ""
   "/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty" 1585170648 204271 bae5b2d457283e99567249c1990510be ""
   "/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty" 1585170648 77022 ee25ce086f4a79d8cf73bac6f94c02a5 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-a.pdf" 1522444699 12160 f5a33a472bc2acb8800c3e00764d8ad1 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-a.tex" 1336516272 466 d1a94627f2e1cbf8876e228d48d436ec ""
-  "/usr/share/texlive/texmf-dist/tex/latex/mwe/example-image.pdf" 1522444699 17568 8e23b7d568553840c1e0d1200fbe2c18 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/mwe/example-image.tex" 1336516272 472 ad3eb26372aefe8d1055d70eab56d506 ""
   "/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575674187 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty" 1137110779 22423 d476012cd03f82f9475ad54ba6cd3267 ""
@@ -80,13 +76,13 @@
   "/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty" 1636758526 32262 2bb622a0aa56c4a7a5cbdfe9d122c15a ""
   "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
-  "/usr/share/texmf/fonts/type1/public/lm/lmss17.pfb" 1254938640 97155 77b0a2ea02ee9c950117adae5f41f9c9 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1696420727 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1696420752 2801537 f7105a8dcb73de15ad17d83f2eb36ca7 ""
-  "project-2_documentation.aux" 1700074502 1618 4cbe6252b7b0563368abbd86f9a47c6c "pdflatex"
-  "project-2_documentation.out" 1700074502 1303 cc7b02fae07e2c76bb344a2c1c090211 "pdflatex"
-  "project-2_documentation.tex" 1700074502 5422 7b9e9ac854c57e7f4da3fa6aa261b3c0 ""
+  "images//Accuracy.png" 1700078215 253911 8c34b3d22f9d3d7b60538b1d8a028174 ""
+  "project-2_documentation.aux" 1700078355 1462 0fb0ddcf5814fd1fed6efaa736033ffb "pdflatex"
+  "project-2_documentation.out" 1700078355 1303 cc7b02fae07e2c76bb344a2c1c090211 "pdflatex"
+  "project-2_documentation.tex" 1700078354 5288 7035e06ddf75cba55a0c5398884fba74 ""
   (generated)
   "project-2_documentation.aux"
   "project-2_documentation.log"

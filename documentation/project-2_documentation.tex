@@ -106,14 +106,12 @@ I wanted to use the same parameters as in task 2,
 however I noticed that the playground was very resource limited. I went from 256 batch size to 16 (with the rest of the parameter being default).
 Computation wise took much longer on the playground compared to my laptop which only had a cpu. A single epoch to train took more than one hour. 
 I also had to change the torch libary to the only-cpu torch library. The playground did not have enough space to download regular torch. 
-Below are the accuracy and F1 scores of the local run and the Playground run. Both use the hyperparameter values. Model performance wise stayed the same:
+Below are the accuracy and F1 scores of the local run and the Playground run. Both use the hyperparameter values. Model performance wise stayed mostly the same:
 
 
 \begin{figure*}[h]
     \centering
-        \includegraphics[width=0.47\linewidth]{example-image}\hfil
-        \includegraphics[width=0.47\linewidth]{example-image-a}\par\medskip
-    \caption{Accuracy and F1 Scores on Local vs Playground}
+        \includegraphics[width=0.66\linewidth]{Accuracy}\hfil
     \end{figure*}
 
 
