@@ -3,11 +3,13 @@ This is a school Assignment for the course MLOPS.
 
 Prerequisities:
 This guide is optimized for debian-based distros.
+You can also run it on docker playground.
 
 - Have a Wandb account and the API Key ready.
 
+
 1. Clone the repository in to your system.
-2. Find the file ```Dockerfile``` and run the following command:
+2. Find the file ```Dockerfile``` which should at the root folder and run the following command:
 ```sudo docker build -t run_distilbert_training .```
 3. Run a docker container with this image with the following command, your wandb API key and the hyperparameters of your choice:
 
