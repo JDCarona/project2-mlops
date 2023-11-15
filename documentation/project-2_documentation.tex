@@ -61,7 +61,7 @@ The arguments are parsed with 'argparse' and added to the model. If a specific o
 The experiments are logged using wandb.ai.
 
 \section{Task 2: Creating a Docker Image}
-The created docker image uses ubuntu, contains the python script and installs all libraries from the requirements.txt file.
+The created docker image contains the python script and installs all libraries from the requirements.txt file.
 When running the container, just like in task 1, the hyperparameters can be passed as arguments. 
 The following command runs a single training run with the best parameters:
 
@@ -76,12 +76,11 @@ This is how the docker image is installed and structured:
 
 \begin{lstlisting}
     # syntax=docker/dockerfile:1
-    FROM ubuntu:latest
-    RUN apt-get update && apt-get install -y python3 python3-pip
+    FROM python:3.10-slim
     WORKDIR /usr/app/src
     COPY ./distilbert_on_mrpc.py ./ 
     COPY ./requirements.txt ./ 
-    RUN python3 -m pip install --verbose -r requirements.txt
+    RUN pip install --no-cache-dir -r requirements.txt
     CMD ["python3", "./distilbert_on_mrpc.py"]
     \end{lstlisting}
 ... by running the command: 
