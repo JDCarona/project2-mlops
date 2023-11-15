@@ -1,4 +1,4 @@
-# project2-mlops
+# MLOPS: Project 2: How to use
 This is a school Assignment for the course MLOPS.
 
 Prerequisities:
@@ -18,16 +18,17 @@ You can also run it on docker playground.
 
 Here is a list of passable hyperparameters:
 
-- '--learning_rate', dest='learning_rate', type=float
-- '--adam_epsilon', dest='adam_epsilon', type=float
-- '--warmup_steps', dest='warmup_steps', type=float
-- '--weight_decay', dest='weight_decay', type=float
-- '--train_batch_size', dest='train_batch_size', type=int
-- '--eval_batch_size', dest='eval_batch_size', type=int
-- '--eval_splits', dest='eval_splits', type=int
-- '--momentum', dest='momentum', type=float
-- '--optimizer_type', dest='optimizer_type', type=str
-- '--max_seq_length', dest='max_seq_length', type=int
-- '--api_key', dest='api_key', type=str
-
+|Hyperparameter   |Type   | 
+|---|---|
+|--api_key   | str  | 
+|--learning_rate   |float |  
+|--adam_epsilon   |float   | 
+|--warmup_steps   |float   | 
+|--weight_decay   |float   | 
+|--train_batch_size   |int   | 
+|--eval_batch_size   |int   | 
+|--eval_splits   |int   | 
+|--momentum   |float   | 
+|--optimizer_type   |str   | 
+|--max_seq_length   |int   | 
 
