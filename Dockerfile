@@ -13,7 +13,10 @@ COPY ./requirements.txt ./
 RUN pip install scipy
 RUN pip install scikit-learn
 RUN pip install wandb
-RUN pip install -q pytorch-cpu==2.0.1 transformers pytorch_lightning==1.9.5 datasets
+RUN pip install torch --index-url https://download.pytorch.org/whl/cpu
+RUN pip install transformers 
+RUN pip install pytorch_lightning==1.9.5 
+RUN pip install datasets
 
 # Use CMD to run your script, without specifying ENTRYPOINT
 CMD ["python3", "./distilbert_on_mrpc.py"]
