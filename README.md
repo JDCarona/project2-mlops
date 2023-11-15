@@ -9,7 +9,7 @@ You can also run it on docker playground.
 
 
 1. Clone the repository in to your system.
-2. Find the file ```Dockerfile``` which should at the root folder and run the following command:
+2. Find the file ```Dockerfile``` which should inside the root folder and run the following command:
 ```sudo docker build -t run_distilbert_training .```
 3. Run a docker container with this image with the following command, your wandb API key and the hyperparameters of your choice:
 
