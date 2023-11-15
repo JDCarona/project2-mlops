@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1700068244 "/home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/documentation/project-2_documentation.tex" "project-2_documentation.pdf" "project-2_documentation" 1700068244
+["pdflatex"] 1700071313 "/home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/documentation/project-2_documentation.tex" "project-2_documentation.pdf" "project-2_documentation" 1700071314
   "/etc/texmf/web2c/texmf.cnf" 1696420706 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/documentation/project-2_documentation.tex" 1700068243 3735 f551f384214a371eb9de35ec9047bb7b ""
+  "/home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/documentation/project-2_documentation.tex" 1700071313 4294 d688715cb2a2ae4eb7b458ea46dff428 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -73,10 +73,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1696420727 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1696420752 2801537 f7105a8dcb73de15ad17d83f2eb36ca7 ""
-  "images//local.png" 1700064514 78093 69299976b89dbe20e481398710687e0e ""
-  "project-2_documentation.aux" 1700068244 1462 0fb0ddcf5814fd1fed6efaa736033ffb "pdflatex"
-  "project-2_documentation.out" 1700068244 1303 cc7b02fae07e2c76bb344a2c1c090211 "pdflatex"
-  "project-2_documentation.tex" 1700068243 3735 f551f384214a371eb9de35ec9047bb7b ""
+  "project-2_documentation.aux" 1700071314 1462 0fb0ddcf5814fd1fed6efaa736033ffb "pdflatex"
+  "project-2_documentation.out" 1700071314 1303 cc7b02fae07e2c76bb344a2c1c090211 "pdflatex"
+  "project-2_documentation.tex" 1700071313 4294 d688715cb2a2ae4eb7b458ea46dff428 ""
   (generated)
   "project-2_documentation.aux"
   "project-2_documentation.log"

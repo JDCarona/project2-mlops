@@ -61,7 +61,7 @@ The arguments are parsed with 'argparse' and added to the model. If a specific o
 The experiments are logged using wandb.ai.
 
 \section{Task 2: Creating a Docker Image}
-The created docker image contains the python script and installs all libraries from the requirements.txt file.
+The created docker image contains the python script and installs all required libraries.
 When running the container, just like in task 1, the hyperparameters can be passed as arguments. 
 The following command runs a single training run with the best parameters:
 
@@ -77,17 +77,29 @@ This is how the docker image is installed and structured:
 \begin{lstlisting}
     # syntax=docker/dockerfile:1
     FROM python:3.10-slim
-    WORKDIR /usr/app/src
+    WORKDIR /usr/src/app
     COPY ./distilbert_on_mrpc.py ./ 
-    COPY ./requirements.txt ./ 
-    RUN pip install --no-cache-dir -r requirements.txt
+    RUN pip install scipy
+    RUN pip install scikit-learn
+    RUN pip install wandb
+    RUN pip install torch --index-url https://download.pytorch.org/whl/cpu
+    RUN pip install transformers 
+    RUN pip install pytorch_lightning==1.9.5 
+    RUN pip install datasets
     CMD ["python3", "./distilbert_on_mrpc.py"]
     \end{lstlisting}
 ... by running the command: 
 \verb!sudo docker build -t run_distilbert_training .!
 
 \section{Task 3: Running the Docker Image on Playground}
-\includegraphics[width=5cm, height=4cm]{local}
+Setup: On docker playground, I cloned my GitHub repository with you will see in Task 4. 
+I then build the image and ran a docker container. I wanted to use the same parameters as in task 2, 
+however I noticed that the playground was very resource limited. I went from 256 batch size to 16 (with the rest of the parameter being default). It crashed at 256.
+Computation took much longer on the playground compared to my laptop which only had a cpu.
+
+
+
+
 
 \section{Task 4: Setup GitHub Repository}
 Below is a link to my private project. You can find additional information and help under the readme section.
@@ -102,7 +114,7 @@ Below is a link to my private project. You can find additional information and h
 It took for me a lot of time to setup the docker image file for it to be able to take in hyperparameter arguments.
 I have never worked with docker before, so I expected this. 
 
-What 
+
 
 
 \end{document}
