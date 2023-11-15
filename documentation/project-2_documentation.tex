@@ -8,12 +8,19 @@
 \usepackage{titlesec}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{lipsum}%% a garbage package you don't need except to create examples.
+\usepackage{fancyhdr}
+\pagestyle{fancy}
 
 \graphicspath{ {./images/} }
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
+\lhead{HSLU}
+\chead{MLOPS: Project 2}
+\rhead{Jonathan Carona}
 
 \lstset{frame=tb,
   language=Java,
@@ -92,19 +99,27 @@ This is how the docker image is installed and structured:
 \verb!sudo docker build -t run_distilbert_training .!
 
 \section{Task 3: Running the Docker Image on Playground}
-Setup: On docker playground, I cloned my GitHub repository with you will see in Task 4. 
-I then build the image and ran a docker container. I wanted to use the same parameters as in task 2, 
-however I noticed that the playground was very resource limited. I went from 256 batch size to 16 (with the rest of the parameter being default). It crashed at 256.
-Computation took much longer on the playground compared to my laptop which only had a cpu.
+Setup: On docker playground, I cloned my GitHub repository that contains the code and the dockerfile (this repository is the same as in task 4). 
+I then build the image and ran a docker container. 
+
+I wanted to use the same parameters as in task 2, 
+however I noticed that the playground was very resource limited. I went from 256 batch size to 16 (with the rest of the parameter being default).
+Computation wise took much longer on the playground compared to my laptop which only had a cpu. A single epoch to train took more than one hour. 
+I also had to change the torch libary to the only-cpu torch library. The playground did not have enough space to download regular torch. 
+Below are the accuracy and F1 scores of the local run and the Playground run. Both use the hyperparameter values. Model performance wise stayed the same:
 
 
+\begin{figure*}[h]
+    \centering
+        \includegraphics[width=0.47\linewidth]{example-image}\hfil
+        \includegraphics[width=0.47\linewidth]{example-image-a}\par\medskip
+    \caption{Accuracy and F1 Scores on Local vs Playground}
+    \end{figure*}
 
 
 
 \section{Task 4: Setup GitHub Repository}
-Below is a link to my private project. You can find additional information and help under the readme section.
-
-
+Here is a link to my private project. You can find additional information and help under the readme section.
 \href{https://github.com/JDCarona/project2-mlops}{GitHub Project 2}.
 
 
@@ -112,8 +127,9 @@ Below is a link to my private project. You can find additional information and h
 
 \section{Reflection}
 It took for me a lot of time to setup the docker image file for it to be able to take in hyperparameter arguments.
-I have never worked with docker before, so I expected this. 
-
+I have never worked with docker before, so I expected this. I also had a hard time with using Docker Playground. 
+I have made many attempts on trying to build the Docker image file it somehow always gave a no space error. It was quite frustrating.
+Task 1 and Task 4 were done fairly quickly, since I have already worked with GitHub in the past.
 
 
 
