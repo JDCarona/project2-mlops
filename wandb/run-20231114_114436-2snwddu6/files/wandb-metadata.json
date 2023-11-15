@@ -1,0 +1,77 @@
+{
+    "os": "Linux-6.2.6-76060206-generic-x86_64-with-glibc2.35",
+    "python": "3.11.5",
+    "heartbeatAt": "2023-11-14T10:44:37.631857",
+    "startedAt": "2023-11-14T10:44:36.349309",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--learning_rate",
+        "6.991860954982597e-05"
+    ],
+    "state": "running",
+    "program": "/home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/distilbert_on_mrpc.py",
+    "codePathLocal": "distilbert_on_mrpc.py",
+    "codePath": "distilbert_on_mrpc.py",
+    "host": "pop-os",
+    "username": "jonathancarona",
+    "executable": "/home/jonathancarona/anaconda3/envs/AICH/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1159.472125,
+        "min": 400.0,
+        "max": 4700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 929.014,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1282.258,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1300.006,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1300.076,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1285.893,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1096.891,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1300.01,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1288.096,
+            "min": 400.0,
+            "max": 4700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1867.8514862060547,
+            "used": 239.94486236572266
+        }
+    },
+    "memory": {
+        "total": 31.055835723876953
+    }
+}

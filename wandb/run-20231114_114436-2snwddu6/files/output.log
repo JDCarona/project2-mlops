@@ -1,0 +1,216 @@
+Map:   0%|                                                                                                                                                    | 0/3668 [00:00<?, ? examples/s]/home/jonathancarona/anaconda3/envs/AICH/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:2622: FutureWarning: The `pad_to_max_length` argument is deprecated and will be removed in a future version, use `padding=True` or `padding='longest'` to pad to the longest sequence in the batch, or use `padding='max_length'` to pad to a max length. In this case, you can give a specific length with `max_length` (e.g. `max_length=45`) or leave max_length to None to pad to the maximal input size of the model (e.g. 512 for Bert).
+  warnings.warn(
+Map: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3668/3668 [00:00<00:00, 9074.94 examples/s]
+Map: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 408/408 [00:00<00:00, 9253.89 examples/s]
+Map: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1725/1725 [00:00<00:00, 10659.01 examples/s]
+Loading `train_dataloader` to estimate number of stepping batches.
+/home/jonathancarona/anaconda3/envs/AICH/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:224: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 8 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+  | Name  | Type                                | Params
+--------------------------------------------------------------
+0 | model | DistilBertForSequenceClassification | 67.0 M
+--------------------------------------------------------------
+67.0 M    Trainable params
+0         Non-trainable params
+67.0 M    Total params
+267.820   Total estimated model params size (MB)
+/home/jonathancarona/anaconda3/envs/AICH/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:224: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 8 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+Sanity Checking DataLoader 0:  50%|██████████████████████████████████████████████████████████████▌                                                              | 1/2 [00:02<00:02,  2.15s/it]
+/home/jonathancarona/anaconda3/envs/AICH/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:224: PossibleUserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 8 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  90%|████████████████████████████████████████████████████████████████████████████████████████████████████████████▋            | 115/128 [14:14<01:36,  7.43s/it, loss=0.465, v_num=2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  48%|██████████████████████████████████████▊                                         | 62/128 [13:03<13:53, 12.64s/it, loss=0.279, v_num=2, val_loss=0.376, accuracy=0.841, f1=0.891]
+/home/jonathancarona/anaconda3/envs/AICH/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py:48: UserWarning: Detected KeyboardInterrupt, attempting graceful shutdown...
+  rank_zero_warn("Detected KeyboardInterrupt, attempting graceful shutdown...")

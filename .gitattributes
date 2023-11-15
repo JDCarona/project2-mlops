@@ -1,0 +1,7 @@
+lightning_logs/** filter=lfs diff=lfs merge=lfs -text
+lightning_logs/**/* filter=lfs diff=lfs merge=lfs -text
+*.ckpt filter=lfs diff=lfs merge=lfs -text
+lightning_logs/version_2/checkpoints filter=lfs diff=lfs merge=lfs -text
+lightning_logs/version_2/events.out.tfevents.1699958687.pop-os.18268.0 filter=lfs diff=lfs merge=lfs -text
+lightning_logs/version_2/hparams.yaml filter=lfs diff=lfs merge=lfs -text
+lightning_logs/version_2/checkpoints/epoch=0-step=115.ckpt filter=lfs diff=lfs merge=lfs -text
