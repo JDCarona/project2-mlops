@@ -10,7 +10,10 @@ COPY ./distilbert_on_mrpc.py ./
 COPY ./requirements.txt ./ 
 
 # Install Python dependencies from requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install scipy
+RUN pip install scikit-learn
+RUN pip install wandb
+RUN pip install -q torch transformers pytorch_lightning==1.9.5 datasets
 
 # Use CMD to run your script, without specifying ENTRYPOINT
 CMD ["python3", "./distilbert_on_mrpc.py"]

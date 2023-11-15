@@ -1,0 +1,184 @@
+2023-11-15 17:33:59,159 INFO    StreamThr :193887 [internal.py:wandb_internal():86] W&B internal server running at pid: 193887, started at: 2023-11-15 17:33:59.159418
+2023-11-15 17:33:59,160 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: status
+2023-11-15 17:33:59,161 INFO    WriterThread:193887 [datastore.py:open_for_write():85] open: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/run-uh9gmokk.wandb
+2023-11-15 17:33:59,162 DEBUG   SenderThread:193887 [sender.py:send():380] send: header
+2023-11-15 17:33:59,164 DEBUG   SenderThread:193887 [sender.py:send():380] send: run
+2023-11-15 17:33:59,667 INFO    SenderThread:193887 [dir_watcher.py:__init__():211] watching files in: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files
+2023-11-15 17:33:59,667 INFO    SenderThread:193887 [sender.py:_start_run_threads():1124] run started: uh9gmokk with start time 1700066039.159323
+2023-11-15 17:33:59,673 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: check_version
+2023-11-15 17:33:59,673 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: check_version
+2023-11-15 17:33:59,791 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: run_start
+2023-11-15 17:33:59,792 DEBUG   HandlerThread:193887 [system_info.py:__init__():32] System info init
+2023-11-15 17:33:59,792 DEBUG   HandlerThread:193887 [system_info.py:__init__():47] System info init done
+2023-11-15 17:33:59,792 INFO    HandlerThread:193887 [system_monitor.py:start():194] Starting system monitor
+2023-11-15 17:33:59,792 INFO    SystemMonitor:193887 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-15 17:33:59,793 INFO    HandlerThread:193887 [system_monitor.py:probe():214] Collecting system info
+2023-11-15 17:33:59,793 INFO    SystemMonitor:193887 [interfaces.py:start():190] Started cpu monitoring
+2023-11-15 17:33:59,794 INFO    SystemMonitor:193887 [interfaces.py:start():190] Started disk monitoring
+2023-11-15 17:33:59,794 INFO    SystemMonitor:193887 [interfaces.py:start():190] Started memory monitoring
+2023-11-15 17:33:59,794 INFO    SystemMonitor:193887 [interfaces.py:start():190] Started network monitoring
+2023-11-15 17:33:59,797 DEBUG   HandlerThread:193887 [system_info.py:probe():196] Probing system
+2023-11-15 17:33:59,798 DEBUG   HandlerThread:193887 [system_info.py:_probe_git():181] Probing git
+2023-11-15 17:33:59,801 DEBUG   HandlerThread:193887 [system_info.py:_probe_git():189] Probing git done
+2023-11-15 17:33:59,801 DEBUG   HandlerThread:193887 [system_info.py:probe():244] Probing system done
+2023-11-15 17:33:59,801 DEBUG   HandlerThread:193887 [system_monitor.py:probe():223] {'os': 'Linux-6.2.6-76060206-generic-x86_64-with-glibc2.35', 'python': '3.10.13', 'heartbeatAt': '2023-11-15T16:33:59.797403', 'startedAt': '2023-11-15T16:33:59.156835', 'docker': None, 'cuda': None, 'args': ('--api_key', 'a152ad3d56acd3b88359321b5b220443a3c157af', '--learning_rate', '6.991860954982597e-05', '--train_batch_size', '256', '--optimizer_type', 'Adam'), 'state': 'running', 'program': '/home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/distilbert_on_mrpc.py', 'codePathLocal': 'distilbert_on_mrpc.py', 'codePath': 'distilbert_on_mrpc.py', 'git': {'remote': 'git@github.com:JDCarona/project2-mlops.git', 'commit': '7952415e29365421cf6a453766e8f110de4b0ff6'}, 'email': 'jonathan.carona@stud.hslu.ch', 'root': '/home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2', 'host': 'pop-os', 'username': 'jonathancarona', 'executable': '/home/jonathancarona/anaconda3/envs/mlops2/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3184.939375, 'min': 400.0, 'max': 4700.0}, 'cpu_freq_per_core': [{'current': 3766.65, 'min': 400.0, 'max': 4700.0}, {'current': 4036.242, 'min': 400.0, 'max': 4700.0}, {'current': 3917.469, 'min': 400.0, 'max': 4700.0}, {'current': 4030.916, 'min': 400.0, 'max': 4700.0}, {'current': 4094.317, 'min': 400.0, 'max': 4700.0}, {'current': 3890.036, 'min': 400.0, 'max': 4700.0}, {'current': 2845.869, 'min': 400.0, 'max': 4700.0}, {'current': 2800.0, 'min': 400.0, 'max': 4700.0}], 'disk': {'/': {'total': 1867.8514862060547, 'used': 363.39586639404297}}, 'memory': {'total': 31.055835723876953}}
+2023-11-15 17:33:59,801 INFO    HandlerThread:193887 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-15 17:33:59,801 INFO    HandlerThread:193887 [system_monitor.py:probe():227] Publishing system info
+2023-11-15 17:33:59,801 DEBUG   HandlerThread:193887 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-11-15 17:33:59,801 DEBUG   HandlerThread:193887 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-15 17:33:59,801 DEBUG   HandlerThread:193887 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-11-15 17:34:00,668 INFO    Thread-12 :193887 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/conda-environment.yaml
+2023-11-15 17:34:00,668 INFO    Thread-12 :193887 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/requirements.txt
+2023-11-15 17:34:01,211 DEBUG   HandlerThread:193887 [system_info.py:_save_conda():87] Saving conda packages done
+2023-11-15 17:34:01,211 INFO    HandlerThread:193887 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-15 17:34:01,213 DEBUG   SenderThread:193887 [sender.py:send():380] send: files
+2023-11-15 17:34:01,213 INFO    SenderThread:193887 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2023-11-15 17:34:01,216 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-15 17:34:01,216 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: stop_status
+2023-11-15 17:34:01,217 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 17:34:01,545 DEBUG   SenderThread:193887 [sender.py:send():380] send: telemetry
+2023-11-15 17:34:01,546 DEBUG   SenderThread:193887 [sender.py:send():380] send: exit
+2023-11-15 17:34:01,546 INFO    SenderThread:193887 [sender.py:send_exit():585] handling exit code: 1
+2023-11-15 17:34:01,546 INFO    SenderThread:193887 [sender.py:send_exit():587] handling runtime: 1
+2023-11-15 17:34:01,546 INFO    SenderThread:193887 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-15 17:34:01,546 INFO    SenderThread:193887 [sender.py:send_exit():593] send defer
+2023-11-15 17:34:01,547 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:01,547 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-15 17:34:01,547 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:01,547 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-15 17:34:01,547 INFO    SenderThread:193887 [sender.py:transition_state():613] send defer: 1
+2023-11-15 17:34:01,547 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:01,547 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-15 17:34:01,547 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:01,547 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-15 17:34:01,547 INFO    SenderThread:193887 [sender.py:transition_state():613] send defer: 2
+2023-11-15 17:34:01,547 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:01,547 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-15 17:34:01,547 INFO    HandlerThread:193887 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-15 17:34:01,547 DEBUG   SystemMonitor:193887 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-15 17:34:01,547 DEBUG   SystemMonitor:193887 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-15 17:34:01,547 INFO    HandlerThread:193887 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-15 17:34:01,547 DEBUG   SystemMonitor:193887 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-15 17:34:01,548 INFO    HandlerThread:193887 [interfaces.py:finish():202] Joined disk monitor
+2023-11-15 17:34:01,548 INFO    HandlerThread:193887 [interfaces.py:finish():202] Joined memory monitor
+2023-11-15 17:34:01,548 INFO    HandlerThread:193887 [interfaces.py:finish():202] Joined network monitor
+2023-11-15 17:34:01,548 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:01,548 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-15 17:34:01,548 INFO    SenderThread:193887 [sender.py:transition_state():613] send defer: 3
+2023-11-15 17:34:01,548 DEBUG   SenderThread:193887 [sender.py:send():380] send: stats
+2023-11-15 17:34:01,548 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:01,549 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-15 17:34:01,549 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:01,549 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-15 17:34:01,549 INFO    SenderThread:193887 [sender.py:transition_state():613] send defer: 4
+2023-11-15 17:34:01,549 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:01,549 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-15 17:34:01,549 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:01,549 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-15 17:34:01,549 INFO    SenderThread:193887 [sender.py:transition_state():613] send defer: 5
+2023-11-15 17:34:01,549 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:01,549 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-15 17:34:01,549 DEBUG   SenderThread:193887 [sender.py:send():380] send: summary
+2023-11-15 17:34:01,549 INFO    SenderThread:193887 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2023-11-15 17:34:01,550 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:01,550 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-15 17:34:01,550 INFO    SenderThread:193887 [sender.py:transition_state():613] send defer: 6
+2023-11-15 17:34:01,550 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:01,550 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-15 17:34:01,550 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:01,550 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-15 17:34:01,552 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: status_report
+2023-11-15 17:34:01,668 INFO    Thread-12 :193887 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/conda-environment.yaml
+2023-11-15 17:34:01,668 INFO    Thread-12 :193887 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/wandb-summary.json
+2023-11-15 17:34:01,668 INFO    Thread-12 :193887 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/output.log
+2023-11-15 17:34:01,668 INFO    Thread-12 :193887 [dir_watcher.py:_on_file_created():271] file/dir created: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/wandb-metadata.json
+2023-11-15 17:34:01,764 INFO    SenderThread:193887 [sender.py:transition_state():613] send defer: 7
+2023-11-15 17:34:01,764 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:01,764 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-15 17:34:01,764 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:01,764 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-15 17:34:01,809 INFO    wandb-upload_0:193887 [upload_job.py:push():131] Uploaded file /tmp/tmpm3mxw2mrwandb/1x6dw2r5-wandb-metadata.json
+2023-11-15 17:34:02,297 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-15 17:34:02,668 INFO    Thread-12 :193887 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/config.yaml
+2023-11-15 17:34:03,557 INFO    SenderThread:193887 [sender.py:transition_state():613] send defer: 8
+2023-11-15 17:34:03,557 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: poll_exit
+2023-11-15 17:34:03,558 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:03,558 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-15 17:34:03,558 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:03,558 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-15 17:34:03,558 INFO    SenderThread:193887 [job_builder.py:build():298] Attempting to build job artifact
+2023-11-15 17:34:03,558 INFO    SenderThread:193887 [job_builder.py:_get_source_type():428] is repo sourced job
+2023-11-15 17:34:03,567 INFO    SenderThread:193887 [job_builder.py:build():404] adding wandb-job metadata file
+2023-11-15 17:34:03,570 INFO    SenderThread:193887 [sender.py:transition_state():613] send defer: 9
+2023-11-15 17:34:03,570 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:03,570 DEBUG   SenderThread:193887 [sender.py:send():380] send: artifact
+2023-11-15 17:34:03,570 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-15 17:34:03,668 INFO    Thread-12 :193887 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/output.log
+2023-11-15 17:34:05,049 INFO    wandb-upload_1:193887 [upload_job.py:push():89] Uploaded file /home/jonathancarona/.local/share/wandb/artifacts/staging/tmpghnyny_y
+2023-11-15 17:34:05,055 INFO    wandb-upload_0:193887 [upload_job.py:push():89] Uploaded file /home/jonathancarona/.local/share/wandb/artifacts/staging/tmpg77543xj
+2023-11-15 17:34:06,255 INFO    SenderThread:193887 [sender.py:send_artifact():1458] sent artifact job-git_github.com_JDCarona_project2-mlops.git_distilbert_on_mrpc.py - {'id': 'QXJ0aWZhY3Q6NjM5MjY5NjM5', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjExNjA1MTQ3Ng==', 'latestArtifact': None}}
+2023-11-15 17:34:06,256 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:06,256 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-15 17:34:06,256 INFO    SenderThread:193887 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-15 17:34:06,669 INFO    SenderThread:193887 [dir_watcher.py:finish():388] scan: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files
+2023-11-15 17:34:06,669 INFO    SenderThread:193887 [dir_watcher.py:finish():402] scan save: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/wandb-metadata.json wandb-metadata.json
+2023-11-15 17:34:06,669 INFO    SenderThread:193887 [dir_watcher.py:finish():402] scan save: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/wandb-summary.json wandb-summary.json
+2023-11-15 17:34:06,669 INFO    SenderThread:193887 [dir_watcher.py:finish():402] scan save: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/config.yaml config.yaml
+2023-11-15 17:34:06,670 INFO    SenderThread:193887 [dir_watcher.py:finish():402] scan save: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/conda-environment.yaml conda-environment.yaml
+2023-11-15 17:34:06,670 INFO    SenderThread:193887 [dir_watcher.py:finish():402] scan save: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/requirements.txt requirements.txt
+2023-11-15 17:34:06,670 INFO    SenderThread:193887 [dir_watcher.py:finish():402] scan save: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/output.log output.log
+2023-11-15 17:34:06,673 INFO    SenderThread:193887 [sender.py:transition_state():613] send defer: 10
+2023-11-15 17:34:06,677 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:06,677 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-15 17:34:06,677 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:06,677 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-15 17:34:06,677 INFO    SenderThread:193887 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-15 17:34:07,045 INFO    wandb-upload_1:193887 [upload_job.py:push():131] Uploaded file /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/wandb-summary.json
+2023-11-15 17:34:07,122 INFO    wandb-upload_2:193887 [upload_job.py:push():131] Uploaded file /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/config.yaml
+2023-11-15 17:34:07,220 INFO    wandb-upload_0:193887 [upload_job.py:push():131] Uploaded file /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/requirements.txt
+2023-11-15 17:34:07,253 INFO    wandb-upload_4:193887 [upload_job.py:push():131] Uploaded file /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/output.log
+2023-11-15 17:34:07,259 INFO    wandb-upload_3:193887 [upload_job.py:push():131] Uploaded file /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/files/conda-environment.yaml
+2023-11-15 17:34:07,298 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: keepalive
+2023-11-15 17:34:07,459 INFO    Thread-11 (_thread_body):193887 [sender.py:transition_state():613] send defer: 11
+2023-11-15 17:34:07,460 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:07,460 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-15 17:34:07,460 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:07,460 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-15 17:34:07,460 INFO    SenderThread:193887 [file_pusher.py:join():181] waiting for file pusher
+2023-11-15 17:34:07,460 INFO    SenderThread:193887 [sender.py:transition_state():613] send defer: 12
+2023-11-15 17:34:07,460 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:07,460 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-15 17:34:07,460 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:07,460 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-15 17:34:07,460 INFO    SenderThread:193887 [file_stream.py:finish():595] file stream finish called
+2023-11-15 17:34:07,655 INFO    SenderThread:193887 [file_stream.py:finish():599] file stream finish is done
+2023-11-15 17:34:07,655 INFO    SenderThread:193887 [sender.py:transition_state():613] send defer: 13
+2023-11-15 17:34:07,655 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:07,655 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-15 17:34:07,656 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:07,656 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-15 17:34:07,656 INFO    SenderThread:193887 [sender.py:transition_state():613] send defer: 14
+2023-11-15 17:34:07,656 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: defer
+2023-11-15 17:34:07,656 DEBUG   SenderThread:193887 [sender.py:send():380] send: final
+2023-11-15 17:34:07,656 INFO    HandlerThread:193887 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-15 17:34:07,656 DEBUG   SenderThread:193887 [sender.py:send():380] send: footer
+2023-11-15 17:34:07,656 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: defer
+2023-11-15 17:34:07,656 INFO    SenderThread:193887 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-15 17:34:07,656 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-15 17:34:07,657 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: server_info
+2023-11-15 17:34:07,657 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: poll_exit
+2023-11-15 17:34:07,657 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: server_info
+2023-11-15 17:34:07,659 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-15 17:34:07,659 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-15 17:34:07,659 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-15 17:34:07,659 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: job_info
+2023-11-15 17:34:07,831 DEBUG   SenderThread:193887 [sender.py:send_request():407] send_request: job_info
+2023-11-15 17:34:07,831 INFO    MainThread:193887 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2023-11-15 17:34:07,831 INFO    MainThread:193887 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2023-11-15 17:34:07,831 INFO    MainThread:193887 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2023-11-15 17:34:07,831 DEBUG   HandlerThread:193887 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-15 17:34:07,831 INFO    HandlerThread:193887 [handler.py:finish():866] shutting down handler
+2023-11-15 17:34:08,659 INFO    WriterThread:193887 [datastore.py:close():294] close: /home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/wandb/run-20231115_173359-uh9gmokk/run-uh9gmokk.wandb
+2023-11-15 17:34:08,831 INFO    SenderThread:193887 [sender.py:finish():1536] shutting down sender
+2023-11-15 17:34:08,831 INFO    SenderThread:193887 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-15 17:34:08,831 INFO    SenderThread:193887 [file_pusher.py:join():181] waiting for file pusher

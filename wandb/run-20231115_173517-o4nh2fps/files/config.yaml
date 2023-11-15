@@ -1,0 +1,74 @@
+wandb_version: 1
+
+learning_rate:
+  desc: null
+  value: 6.991860954982597e-05
+adam_epsilon:
+  desc: null
+  value: 1.0e-08
+warmup_steps:
+  desc: null
+  value: 0
+weight_decay:
+  desc: null
+  value: 0.0
+train_batch_size:
+  desc: null
+  value: 256
+eval_batch_size:
+  desc: null
+  value: 32
+eval_splits:
+  desc: null
+  value: null
+momentum:
+  desc: null
+  value: 0.5
+optimizer_type:
+  desc: null
+  value: Adam
+max_seq_length:
+  desc: null
+  value: 128
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.13
+    cli_version: 0.16.0
+    framework: huggingface
+    huggingface_version: 4.32.1
+    is_jupyter_run: false
+    is_kaggle_kernel: true
+    start_time: 1700066117.217165
+    t:
+      1:
+      - 1
+      - 5
+      - 9
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      - 103
+      2:
+      - 1
+      - 5
+      - 9
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      - 103
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.10.13
+      5: 0.16.0
+      6: 4.32.1
+      8:
+      - 2
+      - 5
+      13: linux-x86_64

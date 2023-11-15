@@ -429,7 +429,6 @@ wandb_logger = WandbLogger(log_model='all')
 trainer = Trainer(
     max_epochs=3,
     accelerator="auto",
-    gpus=1 if torch.cuda.is_available() else 0,
     logger=wandb_logger
 )
 

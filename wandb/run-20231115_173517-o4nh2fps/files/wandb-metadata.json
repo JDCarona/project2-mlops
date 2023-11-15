@@ -1,0 +1,89 @@
+{
+    "os": "Linux-6.2.6-76060206-generic-x86_64-with-glibc2.35",
+    "python": "3.10.13",
+    "heartbeatAt": "2023-11-15T16:35:17.861407",
+    "startedAt": "2023-11-15T16:35:17.214847",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--api_key",
+        "a152ad3d56acd3b88359321b5b220443a3c157af",
+        "--learning_rate",
+        "6.991860954982597e-05",
+        "--train_batch_size",
+        "256",
+        "--optimizer_type",
+        "Adam"
+    ],
+    "state": "running",
+    "program": "/home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2/distilbert_on_mrpc.py",
+    "codePathLocal": "distilbert_on_mrpc.py",
+    "codePath": "distilbert_on_mrpc.py",
+    "git": {
+        "remote": "git@github.com:JDCarona/project2-mlops.git",
+        "commit": "7952415e29365421cf6a453766e8f110de4b0ff6"
+    },
+    "email": "jonathan.carona@stud.hslu.ch",
+    "root": "/home/jonathancarona/Documents/visual-studio-code-projects/MLOPS/project_2",
+    "host": "pop-os",
+    "username": "jonathancarona",
+    "executable": "/home/jonathancarona/anaconda3/envs/mlops2/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2058.2563749999995,
+        "min": 400.0,
+        "max": 4700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2805.489,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2900.282,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2513.312,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3172.707,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2465.503,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3251.266,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2547.415,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2558.36,
+            "min": 400.0,
+            "max": 4700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1867.8514862060547,
+            "used": 363.3962631225586
+        }
+    },
+    "memory": {
+        "total": 31.055835723876953
+    }
+}
